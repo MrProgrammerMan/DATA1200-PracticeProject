@@ -1,0 +1,17 @@
+/* Kontakt Oss */
+
+/* Form */
+
+form {
+  width: 100vw;
+  display: flex;
+}
+
+.inputBox {
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+.inputBox.w50 {
+    width: 47%;
+}
