@@ -16,4 +16,7 @@ main {
     background-blend-mode: darken;
     margin: .5em;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
