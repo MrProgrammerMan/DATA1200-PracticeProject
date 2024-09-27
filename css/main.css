@@ -3,20 +3,25 @@ main {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 5em 0 5em;
+    margin: 0 7em 0 7em;
+    align-items: flex-start;
 }
 
-.lamp {
-    width: 20em;
-    height: 12em;
-    border-radius: .2em;
+.wrapper {
     background-image: url("../imgs/lamp-placeholder.webp");
     background-color: rgba(0, 0, 0, 0.307);
     background-size: 100% auto;
-    background-position: center;
+    background-position-x: center;
     background-blend-mode: darken;
     margin: .5em;
+    width: 20em;
+    border-radius: .2em;
+    overflow: hidden;
     color: white;
+}
+
+.lamp {
+    height: 12em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +36,6 @@ main {
 }
 
 .hidden-content {
-    width: 20em;
-    margin: .5em;
+    padding: .5em;
+    border-top: 2px dashed white;
 }
