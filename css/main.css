@@ -1,0 +1,5 @@
+nav {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
