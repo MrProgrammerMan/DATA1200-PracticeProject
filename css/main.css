@@ -1,5 +1,11 @@
+h1 {
+    display: flex;
+    justify-content: last baseline;
+}
+
 nav {
     width: 90vw;
     display: flex;
+    border: 5px solid lightgray;
     justify-content: space-around;
 }
