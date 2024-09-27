@@ -12,7 +12,7 @@ main {
     border-radius: .2em;
     background-image: url("../imgs/lamp-placeholder.webp");
     background-color: rgba(0, 0, 0, 0.307);
-    background-size: 20em auto;
+    background-size: 100% auto;
     background-position: center;
     background-blend-mode: darken;
     margin: .5em;
@@ -32,4 +32,5 @@ main {
 
 .hidden-content {
     width: 20em;
+    margin: .5em;
 }
