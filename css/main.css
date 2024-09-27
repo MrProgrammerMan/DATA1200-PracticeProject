@@ -9,4 +9,8 @@ main {
 .lamp {
     width: 20em;
     height: 12em;
+    background-image: url("../imgs/lamp-placeholder.webp");
+    background-size: 20em auto;
+    background-position: center;
+    margin: .5em;
 }
