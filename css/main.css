@@ -29,3 +29,7 @@ main {
 .lamp:active {
     background-color: rgba(0, 0, 0, 0.707);
 }
+
+.hidden-content {
+    width: 20em;
+}
