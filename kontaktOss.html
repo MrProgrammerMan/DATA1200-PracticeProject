@@ -6,40 +6,66 @@
     <title>Kontakt Oss</title>
 
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <form action="">
-      <h2>Send a message</h2>
+    <section>
+      <form action="">
+        <span><h2>Contact Us</h2></span>
+        <div class="name inputBox sharing">
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="First Name"
+          />
 
-      <div class="inputBox w50">
-        <label for="">First Name</label>
-        <input type="text" required />
-      </div>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            required
+            placeholder="Last Name"
+          />
+        </div>
 
-      <div class="inputBox w50">
-        <label for="">Last Name</label>
-        <input type="text" required />
-      </div>
+        <div class="contactInfo inputBox sharing">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Email"
+          />
 
-      <div class="inputBox w50">
-        <label for="">Email</label>
-        <input type="email" required />
-      </div>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            required
+            placeholder="Phone Number"
+          />
+        </div>
 
-      <div class="inputBox w50">
-        <label for="">Mobile Number</label>
-        <input type="number" required />
-      </div>
+        <div class="message inputBox">
+          <textarea
+            name="message"
+            id="message"
+            spellcheck="true"
+            placeholder="Message"
+          ></textarea>
+        </div>
 
-      <div class="inputBox w1000">
-        <label for="">Write Your Message Here</label>
-        <input type="text" required />
-      </div>
-
-      <div class="inputBox w100">
-        <input type="submit" value="Submit" />
-      </div>
-    </form>
+        <div class="submit">
+          <button type="submit">Send Your Message!</button>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
