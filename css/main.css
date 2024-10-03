@@ -1,10 +1,15 @@
 h1 {
-    display: flex;
-    justify-content: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: underline;
+    display: flex;
+    justify-content: middle;
+    margin-left: 3vw;
 }
 
 nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font
+    height: 5vw;
     width: 90vw;
     display: flex;
     border: 5px solid lightgray;
