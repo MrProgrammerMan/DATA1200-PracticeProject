@@ -1,11 +1,11 @@
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: underline;
+    text-shadow: 3px 2px #858383;
     display: flex;
     justify-content: middle;
     margin-left: 3vw;
 }
-
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font
