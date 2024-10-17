@@ -1,4 +1,107 @@
-/* Kontakt Oss */
+table {
+    width: 75;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+table, td, th {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: rgb(165, 191, 150);
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display:block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr{
+        margin-bottom: 10px;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        border-collapse: collapse;
+        border: none;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+        border-right: 1px solid;
+    }
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 5px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    #species {
+        background-color: rgb(165, 191, 150);
+        border-top: 1px solid;
+    }
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 7em 0 7em;
+    align-items: flex-start;
+}
+
+.wrapper {
+    background-image: url("../imgs/lamp-placeholder.webp");
+    background-color: rgba(0, 0, 0, 0.307);
+    background-size: 100% auto;
+    background-position-x: center;
+    background-blend-mode: darken;
+    margin: .5em;
+    width: 20em;
+    border-radius: .2em;
+    overflow: hidden;
+    color: white;
+}
+
+.lamp {
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lamp:hover {
+    background-color: rgba(0, 0, 0, 0.557);
+}
+
+.lamp:active {
+    background-color: rgba(0, 0, 0, 0.707);
+}
+
+.hidden-content {
+    padding: .5em;
+    border-top: 2px dashed white;
+}/* Kontakt Oss */
 
 body {
   background-image: url("../images/Mountains.webp");
