@@ -67,7 +67,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 7em 0 7em;
-    align-items: flex-start;
 }
 
 .wrapper {
