@@ -101,4 +101,114 @@ main {
 .hidden-content {
     padding: .5em;
     border-top: 2px dashed white;
+}/* Kontakt Oss */
+
+.Kontak-Oss-body {
+  background-image: url("../images/Mountains.webp");
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+/* Form */
+
+form {
+  background-color: whitesmoke;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 1em;
+  padding: 3em;
+}
+
+form h2 {
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+form .inputBox {
+  width: 100%;
+  padding-bottom: 2em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+form .inputBox > * {
+  margin-bottom: 0.5em;
+  border: 0;
+  font-size: 1.1em;
+  background-color: whitesmoke;
+}
+
+form .inputBox input,
+form .inputBox textarea {
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+form .inputBox input:focus,
+form .inputBox textarea:focus {
+  outline: none;
+  background-color: rgba(238, 238, 238, 0.871);
+}
+
+form .sharing {
+  display: flex;
+  gap: 3px;
+}
+
+form .name {
+  flex: 1;
+}
+
+form .contactInfo {
+  flex: 1;
+}
+
+form .message textarea {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+form .submit {
+  display: flex;
+  justify-content: center;
+}
+
+form .submit-btn {
+  background: linear-gradient(
+    to left,
+    #ff416c,
+    #ff4b2b
+  ); /* Starting gradient */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Apply transition to background and transform */
+}
+
+form .submit-btn:hover {
+  background: linear-gradient(
+    to left,
+    #ff4b2b,
+    #ff416c
+  ); /* Gradient changes on hover */
+  transform: scale(1.05); /*Increases the button slightly*/
+}
+
+@media (max-width: 600px) {
+  form .sharing {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
 }
