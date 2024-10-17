@@ -103,7 +103,7 @@ main {
     border-top: 2px dashed white;
 }/* Kontakt Oss */
 
-body {
+.Kontak-Oss-body {
   background-image: url("../images/Mountains.webp");
   background-size: cover;
   margin: 0;
