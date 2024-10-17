@@ -1,0 +1,62 @@
+table {
+    width: 75;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+table, td, th {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: rgb(165, 191, 150);
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display:block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr{
+        margin-bottom: 10px;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        border-collapse: collapse;
+        border: none;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+        border-right: 1px solid;
+    }
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 5px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    #species {
+        background-color: rgb(165, 191, 150);
+        border-top: 1px solid;
+    }
+}
+
+
+
+
