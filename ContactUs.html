@@ -15,70 +15,80 @@
       rel="stylesheet"
     />
   </head>
+  <body>
+    <!-- Header Menu -->
+    <header>
+      <h1>Moths</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html">Moths</a>
+        <a href="lamps.html">Lamps</a>
+        <a href="#">Contact us</a>
+      </nav>
+      <hr />
+    </header>
+    <main class="Kontak-Oss-body">
+      <section>
+        <form action="">
+          <span><h2>Contact Us</h2></span>
+          <div class="name inputBox sharing">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              required
+              placeholder="First Name"
+            />
 
-  <body class="Kontak-Oss-body">
-    <section>
-      <form action="">
-        <span><h2>Contact Us</h2></span>
-        <div class="name inputBox sharing">
-          <input
-            type="text"
-            name="fname"
-            id="fname"
-            required
-            placeholder="First Name"
-          />
+            <input
+              type="text"
+              name="mname"
+              id="mname"
+              placeholder="Middle Name (Optional)"
+            />
 
-          <input
-            type="text"
-            name="mname"
-            id="mname"
-            placeholder="Middle Name (Optional)"
-          />
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              required
+              placeholder="Last Name"
+            />
+          </div>
 
-          <input
-            type="text"
-            name="lname"
-            id="lname"
-            required
-            placeholder="Last Name"
-          />
-        </div>
+          <div class="contactInfo inputBox sharing">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
 
-        <div class="contactInfo inputBox sharing">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            required
-            placeholder="Email"
-          />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              required
+              placeholder="Phone Number"
+            />
+          </div>
 
-          <input
-            type="tel"
-            name="tel"
-            id="tel"
-            required
-            placeholder="Phone Number"
-          />
-        </div>
+          <div class="message inputBox">
+            <textarea
+              name="message"
+              id="message"
+              spellcheck="true"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
 
-        <div class="message inputBox">
-          <textarea
-            name="message"
-            id="message"
-            spellcheck="true"
-            placeholder="Message"
-            required
-          ></textarea>
-        </div>
-
-        <div class="submit">
-          <button class="submit-btn" type="submit">Send Your Message!</button>
-        </div>
-      </form>
-    </section>
-
-    test
+          <div class="submit">
+            <button class="submit-btn" type="submit">Send Your Message!</button>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
